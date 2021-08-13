@@ -51,8 +51,6 @@ async def start(bot, update):
         InlineKeyboardButton('〽️ CHANNEL 〽️', url ='https://t.me/MH_Newrelease1')
     ],[
         InlineKeyboardButton('⚡️ Movies Hub Series ⚡️', url='https://t.me/MH_Series1')
-    ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
