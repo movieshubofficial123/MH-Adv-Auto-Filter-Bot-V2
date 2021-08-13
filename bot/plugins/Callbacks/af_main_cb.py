@@ -138,7 +138,7 @@ async def cb_navg(bot, update: CallbackQuery):
         achatId = None
     
     reply_markup = InlineKeyboardMarkup(temp_results)
-     (f"00a988145f1ca33dd7152.jpg")
+   
     text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Query » <u></i> <code>{query}</code></u> ✓"
         
     try:
