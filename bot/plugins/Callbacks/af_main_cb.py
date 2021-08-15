@@ -186,7 +186,7 @@ async def cb_settings(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "Channels", callback_data=f"channel_list({chat_id})"
+                    "〽️ Channels 〽️", callback_data=f"channel_list({chat_id})"
                 ), 
             
             InlineKeyboardButton
