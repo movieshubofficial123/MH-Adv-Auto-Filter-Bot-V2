@@ -4,8 +4,7 @@
 
 class Translation(object):
     
-    START_TEXT = Photo="https://telegra.ph/file/00a988145f1ca33dd7152.jpg"
-"""<b><u>Hey {} Hi!!</b></u>
+    START_TEXT = """<b><u>Hey {} Hi!!</b></u>
 <i>Am Just A Advance Auto Filter Bot....😉
 
 Don't Waste Your Time
