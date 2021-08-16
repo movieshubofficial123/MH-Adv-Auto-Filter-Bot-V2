@@ -184,7 +184,7 @@ async def auto_filter(bot: Client, update: Message):
                 if ((len(ibuttons)%2) == 0):
                     ibuttons.append(
                         [
-                            InlineKeyboardButton(f"〽️ New Release 〽️", url ='https://t.me/MH_Newrelease1')
+                            InlineKeyboardButton(f"〽️ New Release 〽️", url ='https://t.me/MH_Newrelease1'),
                         ]
                     )
 
