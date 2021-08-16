@@ -186,12 +186,12 @@ async def auto_filter(bot: Client, update: Message):
                         [
                             InlineKeyboardButton(f"〽️ New Release 〽️", url ='https://t.me/MH_Newrelease1'),
                         ]
-                    
+                    )
 
                 else:
                     ibuttons[-1].append(
                         InlineKeyboardButton(f"⚡️ MH Series ⚡️ ", url ='https://t.me/MH_Series1')
-                    )
+                    (
                 
             for x in ibuttons:
                 result[0].insert(0, x) #Insert invite link buttons at first of page
@@ -206,7 +206,7 @@ async def auto_filter(bot: Client, update: Message):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"Found {(len_results)} Results For Your Request » <code>{query}</code> ✓",
+                text=f"Found {(len_results)} Results For Your Request » <b><code>{query}</code></b> ✓",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
