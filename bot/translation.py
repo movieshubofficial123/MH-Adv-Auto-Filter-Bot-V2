@@ -5,12 +5,12 @@
 class Translation(object):
     
     START_TEXT = """<b><u>Hey {} Hi!!</b></u>
-<i>Am Just A Advance Auto Filter Bot....😉
+<i>Am Officially Made For Movies Hub....😉
 
-Don't Waste Your Time
+Don't Waste Your Time ⏳
 
-If You Want To Request Any Movies
-Use @movies_Hubh2 Group
+If You Want To Request Any 🎬 Movies
+Use Our @movies_Hubh2 Group
 </i>"""    
     
     HELP_TEXT = """
