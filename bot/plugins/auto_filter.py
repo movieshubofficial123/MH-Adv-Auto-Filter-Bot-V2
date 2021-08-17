@@ -190,7 +190,7 @@ async def auto_filter(bot: Client, update: Message):
 
                 else:
                     ibuttons[-1].append(
-                        InlineKeyboardButton(f"⚡️ MH Series ⚡️", url=MH_Series1)
+                        InlineKeyboardButton(f"⚡️ MH Series ⚡️", url='https://t.me/MH_Newrelease1')
                     )
                 
             for x in ibuttons:
