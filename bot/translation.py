@@ -5,7 +5,7 @@
 class Translation(object):
     
     START_TEXT = """<b><u>Hey {} Hi!!</b></u>
-<i>Am Officially Made For Movies Hub....😉
+<i>Am Officially Made For <b>Movies Hub</b>....😉
 
 Don't Waste Your Time ⏳
 
