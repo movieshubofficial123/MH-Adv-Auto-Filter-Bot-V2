@@ -119,7 +119,7 @@ async def cb_navg(bot, update: CallbackQuery):
                     [
                         InlineKeyboardButton
                             (
-                                f"〽️ New Release 〽️", url=invite_link
+                                f"〽️ New Release 〽️", url='https://t.me/movies_Hubh2'),
                             )
                     ]
                 )
