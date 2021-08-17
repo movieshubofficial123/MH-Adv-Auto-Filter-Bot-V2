@@ -128,7 +128,7 @@ async def cb_navg(bot, update: CallbackQuery):
                 ibuttons[-1].append(
                     InlineKeyboardButton
                         (
-                            f"⚡️ MH Series ⚡️", url ='https://t.me/MH_Series1'
+                            f"⚡️ MH Series ⚡️", url ='https://t.me/MH_Series1')
                         )
                 )
             
@@ -139,7 +139,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
    
-    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Request »</i> <code>{query}</code>"
+    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Request »</i> <b><code>{query}</code></b>"
         
     try:
         await update.message.edit(
