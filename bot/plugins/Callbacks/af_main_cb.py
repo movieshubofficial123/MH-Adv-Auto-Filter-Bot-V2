@@ -128,6 +128,7 @@ async def cb_navg(bot, update: CallbackQuery):
                         (
                             f"⚡️ MH Series ⚡️", url='https://t.me/MH_Newrelease1')
                         )
+                    ]
             
         for x in ibuttons:
             temp_results.insert(0, x)
