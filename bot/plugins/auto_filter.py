@@ -184,12 +184,14 @@ async def auto_filter(bot: Client, update: Message):
                 if ((len(ibuttons)%2) == 0):
                     ibuttons.append(
                         [
-                            InlineKeyboardButton(f"〽️ New Release 〽️", url ='https://t.me/MH_Newrelease1'),
+                            InlineKeyboardButton(f"⚜ {chat_name} ⚜", url=invite_link)
+                        ]
+                    )
 
-                
-                    
-                        InlineKeyboardButton(f"⚡️ MH Series ⚡️ ", url ='https://t.me/MH_Series1')
-                    ]
+                else:
+                    ibuttons[-1].append(
+                        InlineKeyboardButton(f"⚜ {chat_name} ⚜", url=invite_link)
+                    )
                 
             for x in ibuttons:
                 result[0].insert(0, x) #Insert invite link buttons at first of page
