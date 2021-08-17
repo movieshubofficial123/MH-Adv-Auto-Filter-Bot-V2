@@ -120,9 +120,9 @@ async def cb_navg(bot, update: CallbackQuery):
                         InlineKeyboardButton
                             (
                                 f"〽️ New Release 〽️", url ='https://t.me/MH_Newrelease1'),
-                            
+                            )
                     ]
-                )
+                
 
             else:
                 ibuttons[-1].append(
