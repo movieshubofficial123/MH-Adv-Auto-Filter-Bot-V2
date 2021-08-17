@@ -185,13 +185,13 @@ async def auto_filter(bot: Client, update: Message):
                     ibuttons.append(
                         [
                             InlineKeyboardButton(f"〽️ New Release 〽️", url='https://t.me/movies_Hubh2'),
+                        ]
                     )
 
                 else:
                     ibuttons[-1].append(
                         InlineKeyboardButton(f"⚡️ MH Series ⚡️", url='https://t.me/MH_Newrelease1')
                     )
-                        ]
                 
             for x in ibuttons:
                 result[0].insert(0, x) #Insert invite link buttons at first of page
