@@ -120,8 +120,7 @@ async def cb_navg(bot, update: CallbackQuery):
                         InlineKeyboardButton
                             (
                                 f"〽️ New Release 〽️", url='https://t.me/movies_Hubh2'),
-                    ]
-                )
+                            )
 
             else:
                 ibuttons[-1].append(
@@ -129,7 +128,6 @@ async def cb_navg(bot, update: CallbackQuery):
                         (
                             f"⚡️ MH Series ⚡️", url='https://t.me/MH_Newrelease1')
                         )
-                )
             
         for x in ibuttons:
             temp_results.insert(0, x)
