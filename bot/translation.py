@@ -4,7 +4,8 @@
 
 class Translation(object):
     
-    START_TEXT = """<b><u>Hey {} Hi!!</b></u>
+    START_PHOTO = "https://telegra.ph/file/e3fd31093022ece589a56.jpg",
+"""<b><u>Hey {} Hi!!</b></u>
 <i>Am Officially Made For <b>Movies Hub</b>....😉
 
 But Don't Waste Your Time ⏳
