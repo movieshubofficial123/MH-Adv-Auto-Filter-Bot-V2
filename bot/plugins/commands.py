@@ -53,7 +53,7 @@ async def start(bot, update):
         InlineKeyboardButton('〽️ New Release 〽️', url='https://t.me/MH_Newrelease1'),
         InlineKeyboardButton('⚡️ MH Series ⚡️', url ='https://t.me/MH_Series1')
     ],[
-        InlineKeyboardButton('⚡️ Movies Hub Series ⚡️', url='https://t.me/share/movies_Hubh2')
+        InlineKeyboardButton(' SHARE 🎗 SUPPORT ➢', url='https://t.me/share/movies_Hubh2')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
