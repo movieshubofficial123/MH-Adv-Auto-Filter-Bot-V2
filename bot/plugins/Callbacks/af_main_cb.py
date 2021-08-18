@@ -138,7 +138,6 @@ async def cb_navg(bot, update: CallbackQuery):
         achatId = None
     
     reply_markup = InlineKeyboardMarkup(temp_results)
-    <b>🎥🎬Movies Hub 2📡</b>
    
     text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Request »</i> <code>{query}</code>"
         
