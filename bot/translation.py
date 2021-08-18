@@ -4,7 +4,7 @@
 
 class Translation(object):
     
-    START_PHOTO = "https://telegra.ph/file/e3fd31093022ece589a56.jpg",
+    START_TEXT = "https://telegra.ph/file/e3fd31093022ece589a56.jpg",
 """<b><u>Hey {} Hi!!</b></u>
 <i>Am Officially Made For <b>Movies Hub</b>....😉
 
