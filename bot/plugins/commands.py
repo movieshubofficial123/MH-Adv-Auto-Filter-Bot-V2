@@ -47,13 +47,13 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('🎬 GROUP 📡', url='https://t.me/movies_Hubh2'),
+        InlineKeyboardButton('🎬  GROUP  📡', url='https://t.me/movies_Hubh2'),
         InlineKeyboardButton('📺 CHANNEL 📡', url ='https://t.me/FilesMH')
     ],[
         InlineKeyboardButton('〽️ New Release 〽️', url='https://t.me/MH_Newrelease1'),
         InlineKeyboardButton('⚡️ MH Series ⚡️', url ='https://t.me/MH_Series1')
     ],[
-        InlineKeyboardButton(' SHARE 🎗 SUPPORT  ➢', url='https://t.me/share/movies_Hubh2')
+        InlineKeyboardButton('➢ Share 🎗 Support  ➣', url='https://t.me/share/movies_Hubh2')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
