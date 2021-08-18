@@ -10,7 +10,7 @@ class Translation(object):
 But Don't Waste Your Time ⏳
 
 If You Want To Request Any 🎬 Movies
-Use Our ('Movies Hub', url='https://t.me/movies_Hubh2') Group
+Use Our url='https://t.me/movies_Hubh2 Group
 </i>"""    
     
     HELP_TEXT = """
