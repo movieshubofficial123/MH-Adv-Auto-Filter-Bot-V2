@@ -119,7 +119,7 @@ async def cb_navg(bot, update: CallbackQuery):
                     [
                         InlineKeyboardButton
                             (
-                                f"🎥 MH New 🎬 Release 🎟", url='https://t.me/MH_Newrelease1',
+                                f"🎬 MH New Release 🎟", url='https://t.me/MH_Newrelease1',
                             )
                     ]
                 )
@@ -138,8 +138,8 @@ async def cb_navg(bot, update: CallbackQuery):
         achatId = None
     
     reply_markup = InlineKeyboardMarkup(temp_results)
-    text=f"<b>🎥🎬Movies Hub 2📡</b>"
-    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Request »</i> <code>{query}</code>"
+   
+    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Request »</i> <code><b><u>{query}</b></u></code>"
         
     try:
         await update.message.edit(
