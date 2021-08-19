@@ -11,7 +11,8 @@ But Don't Waste Your Time ⏳
 
 If You Want To Request Any 🎬 Movies
 Use Our @movies_Hubh2 Group/n
-            ~🇲‌🇦‌🇳‌🇦‌🇬‌🇪‌🇷‌ᵒᶠ movieshub
+
+             ~🇲‌🇦‌🇳‌🇦‌🇬‌🇪‌🇷‌ᵒᶠ movieshub
 </i>"""    
     
     HELP_TEXT = """
