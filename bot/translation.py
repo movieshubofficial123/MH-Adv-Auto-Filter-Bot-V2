@@ -5,12 +5,12 @@
 class Translation(object):
     
     START_TEXT = """<b><u>Hey {} Hi!!</b></u>
-<i>I'm Officially Made For ~ <b>Movies Hub</b>....😉/n
+<i>I'm Officially Made For ~ <b>Movies Hub</b>....😉\n
 
 But Don't Waste Your Time ⏳
 
 If You Want To Request Any 🎬 Movies
-Use Our @movies_Hubh2 Group/n
+Use Our @movies_Hubh2 Group\n
 
              ~🇲‌🇦‌🇳‌🇦‌🇬‌🇪‌🇷‌ᵒᶠ movieshub
 </i>"""    
